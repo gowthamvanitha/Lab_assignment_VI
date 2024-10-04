@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = r"C:\Users\gowth\OneDrive\Desktop\streamlit tut\sales_dataset_with_items.xlsx"
-df = pd.read_excel(file_path)
+df = pd.read_excel('sales_dataset_with_items.xlsx')
 
 # Set page configuration
 st.set_page_config(page_title="Corporate Sales Dashboard", page_icon="🏢", layout="wide")
